@@ -165,3 +165,6 @@ def homepage(request):
 
 def github_view(request):
 	return HttpResponse("<h1> Hello from GitHub.com</h1><hr />");
+    
+def gitbash_view(request):
+    return HttpResponse("<h1>Hello from Git-Bash</h1><hr />");
